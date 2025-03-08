@@ -4,57 +4,57 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
+      title: "Vaccine Reservation System",
       description:
-        "A full-featured online store with product management, cart functionality, and secure payment processing.",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-      github: "https://github.com/username/ecommerce-platform",
-      demo: "https://ecommerce-platform.example.com",
+        "A web application for users to schedule vaccinations in Singapore.",
+      technologies: ["Javascript", "React", "Express", "MongoDB", "Netlify"],
+      github: "https://github.com/xavjamito/vaccine-reservation-system",
+      demo: "https://vaccine-reservation-system.netlify.app",
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Integrated Entertainment System",
       description:
-        "A productivity application for managing tasks, projects, and team collaboration with real-time updates.",
-      technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
-      github: "https://github.com/username/task-management",
-      demo: "https://task-app.example.com",
+        "Developed APIs and UI for an integrated entertainment system for one of the biggest telco companies in Southeast Asia.",
+      technologies: ["React", "Next.js", "Typescript", "NestJS"],
+      github: "https://github.com/xavjamito/entertainment-system",
+      demo: "https://entertainment-system-demo.vercel.app",
     },
     {
       id: 3,
-      title: "Weather Dashboard",
+      title: "Risk Assessment Tool",
       description:
-        "A weather application that displays current and forecasted weather data for any location with interactive maps.",
-      technologies: ["JavaScript", "HTML/CSS", "Weather API", "Leaflet.js"],
-      github: "https://github.com/username/weather-dashboard",
-      demo: "https://weather-app.example.com",
+        "A tool for risk assessment with data visualization capabilities for a client in Australia.",
+      technologies: ["React", "Typescript", "Next.JS", "D3.js", "Mapbox"],
+      github: "https://github.com/xavjamito/risk-assessment-tool",
+      demo: "https://risk-assessment-demo.vercel.app",
     },
     {
       id: 4,
-      title: "Blog API",
+      title: "DIANA Ecosystem Operating Platform",
       description:
-        "A RESTful API for a blog platform with authentication, authorization, and CRUD operations for posts and comments.",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT"],
-      github: "https://github.com/username/blog-api",
-      demo: "https://blog-api.example.com/docs",
+        "A proprietary platform that enables end-to-end bunkering solutions in a digital ecosystem.",
+      technologies: ["React", "Typescript", "C#", ".NET"],
+      github: "https://github.com/xavjamito/diana-platform",
+      demo: "https://diana-platform-demo.vercel.app",
     },
     {
       id: 5,
-      title: "Portfolio Website",
+      title: "Performance Review System",
       description:
-        "A personal portfolio website showcasing my projects, skills, and experience with a terminal-inspired design.",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      github: "https://github.com/username/portfolio",
-      demo: "https://portfolio.example.com",
+        "An internal performance review system for managing employee evaluations and feedback.",
+      technologies: ["Next.js", "Typescript", "Prisma", "MongoDB"],
+      github: "https://github.com/xavjamito/performance-review",
+      demo: "https://performance-review-demo.vercel.app",
     },
     {
       id: 6,
-      title: "Movie Database App",
+      title: "Ts.ED Documentation Migration",
       description:
-        "An application for browsing movies, viewing details, and saving favorites using the TMDB API.",
-      technologies: ["React", "Redux", "TMDB API", "Styled Components"],
-      github: "https://github.com/username/movie-database",
-      demo: "https://movie-app.example.com",
+        "Migration of documentation for Ts.ED, an open-source Node and Typescript framework from Vuepress to Vitepress.",
+      technologies: ["Vue", "Vitepress", "Typescript", "Node.js"],
+      github: "https://github.com/tsedio/tsed",
+      demo: "https://tsed.io",
     },
   ];
 
@@ -108,7 +108,7 @@ const Projects = () => {
 
         <div className='mt-8'>
           <TerminalCommand
-            text='echo "More projects coming soon..."'
+            text="echo 'More projects coming soon...'"
             isComplete={true}
             autoType={false}
           />

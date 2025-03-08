@@ -278,7 +278,7 @@ const Terminal = ({ children }: TerminalProps) => {
         {/* Terminal Content */}
         <div
           ref={terminalContentRef}
-          className='bg-terminal-black p-4 h-[calc(100vh-10rem)] overflow-y-auto rounded-b-md'
+          className='bg-terminal-black p-4 h-[calc(100vh-6rem)] overflow-y-auto rounded-b-md'
         >
           {showWelcome && (
             <div className='mb-6'>
@@ -350,10 +350,10 @@ const Terminal = ({ children }: TerminalProps) => {
 
         {/* Terminal Footer */}
         <div className='mt-2 text-text-secondary text-sm flex justify-between'>
-          <div>© {new Date().getFullYear()} Xavier</div>
+          <div>© {new Date().getFullYear()} Xavier Paolo Jamito</div>
           <div className='flex space-x-4'>
             <a
-              href='https://github.com/username'
+              href='https://github.com/xavjamito'
               target='_blank'
               rel='noopener noreferrer'
               className='hover:text-terminal-cyan'
@@ -361,7 +361,7 @@ const Terminal = ({ children }: TerminalProps) => {
               GitHub
             </a>
             <a
-              href='https://linkedin.com/in/username'
+              href='https://www.linkedin.com/in/pjamito/'
               target='_blank'
               rel='noopener noreferrer'
               className='hover:text-terminal-cyan'
@@ -369,12 +369,10 @@ const Terminal = ({ children }: TerminalProps) => {
               LinkedIn
             </a>
             <a
-              href='https://twitter.com/username'
-              target='_blank'
-              rel='noopener noreferrer'
+              href='mailto:xavierjamito@gmail.com'
               className='hover:text-terminal-cyan'
             >
-              Twitter
+              Email
             </a>
           </div>
         </div>

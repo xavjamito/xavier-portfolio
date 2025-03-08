@@ -4,49 +4,48 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "Building a Terminal-Themed Portfolio with React",
-      date: "2023-06-15",
+      title: "My Journey to AWS Certification",
+      date: "2024-03-20",
       excerpt:
-        "Learn how to create a unique terminal-themed portfolio website using React, TypeScript, and Tailwind CSS.",
-      tags: ["React", "TypeScript", "Tailwind CSS", "Portfolio"],
+        "Sharing my experience and study tips for obtaining the AWS Solutions Architect Associate certification.",
+      tags: ["AWS", "Cloud", "Certification", "Career Development"],
       readTime: "8 min read",
     },
     {
       id: 2,
-      title:
-        "The Power of TypeScript: Why You Should Use It in Your Next Project",
-      date: "2023-05-20",
+      title: "Building Modern Web Applications with Next.js and TypeScript",
+      date: "2024-02-15",
       excerpt:
-        "Discover the benefits of TypeScript and how it can improve your development workflow and code quality.",
-      tags: ["TypeScript", "JavaScript", "Web Development"],
-      readTime: "6 min read",
-    },
-    {
-      id: 3,
-      title: "Optimizing React Applications for Performance",
-      date: "2023-04-10",
-      excerpt:
-        "Explore techniques and best practices for optimizing your React applications to deliver a better user experience.",
-      tags: ["React", "Performance", "Optimization"],
+        "Exploring the benefits of using Next.js and TypeScript for building robust, type-safe web applications.",
+      tags: ["Next.js", "TypeScript", "Web Development", "React"],
       readTime: "10 min read",
     },
     {
-      id: 4,
-      title: "Creating Accessible Web Applications",
-      date: "2023-03-05",
+      id: 3,
+      title: "Migrating Documentation from Vuepress to Vitepress",
+      date: "2023-12-10",
       excerpt:
-        "Learn how to build web applications that are accessible to all users, including those with disabilities.",
-      tags: ["Accessibility", "Web Development", "HTML", "CSS"],
-      readTime: "7 min read",
+        "A detailed guide on how to migrate your documentation from Vuepress to Vitepress, based on my experience with the Ts.ED framework.",
+      tags: ["Vue", "Vitepress", "Documentation", "Open Source"],
+      readTime: "12 min read",
+    },
+    {
+      id: 4,
+      title: "Data Visualization with D3.js and React",
+      date: "2023-10-05",
+      excerpt:
+        "Learn how to integrate D3.js with React to create powerful, interactive data visualizations for your web applications.",
+      tags: ["D3.js", "React", "Data Visualization", "JavaScript"],
+      readTime: "9 min read",
     },
     {
       id: 5,
-      title: "Introduction to GraphQL: A Better Way to API",
-      date: "2023-02-18",
+      title: "Working with MongoDB and Prisma in Next.js Applications",
+      date: "2023-08-18",
       excerpt:
-        "Discover how GraphQL can revolutionize your API development and provide a more efficient way to fetch data.",
-      tags: ["GraphQL", "API", "Backend", "JavaScript"],
-      readTime: "9 min read",
+        "A comprehensive guide to setting up and using MongoDB with Prisma in your Next.js projects for efficient database operations.",
+      tags: ["MongoDB", "Prisma", "Next.js", "Database"],
+      readTime: "11 min read",
     },
   ];
 
@@ -91,15 +90,16 @@ const Blog = () => {
 
         <div className='mt-8'>
           <TerminalCommand
-            text='echo "Subscribe to my newsletter"'
+            text="echo 'Subscribe to my newsletter'"
             isComplete={true}
             autoType={false}
           />
           <div className='terminal-result'>
             <div className='terminal-newsletter'>
               <p className='mb-4'>
-                Stay updated with my latest articles and projects. Subscribe to
-                my newsletter!
+                Stay updated with my latest articles on web development, cloud
+                technologies, and software engineering. Subscribe to my
+                newsletter!
               </p>
               <div className='flex'>
                 <input

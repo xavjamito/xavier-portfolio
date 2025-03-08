@@ -46,8 +46,15 @@ const Contact = () => {
       <div className='terminal-result mb-6'>
         <div className='mb-4'>
           <div className='terminal-command'>Email</div>
-          <a href='mailto:xavier@example.com' className='terminal-link'>
-            xavier@example.com
+          <a href='mailto:xavierjamito@gmail.com' className='terminal-link'>
+            xavierjamito@gmail.com
+          </a>
+        </div>
+
+        <div className='mb-4'>
+          <div className='terminal-command'>Phone</div>
+          <a href='tel:+639178026716' className='terminal-link'>
+            +63 917 802 6716
           </a>
         </div>
 
@@ -55,43 +62,27 @@ const Contact = () => {
           <div className='terminal-command'>Social</div>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-2 mt-2'>
             <a
-              href='https://github.com/username'
+              href='https://www.linkedin.com/in/pjamito/'
               target='_blank'
               rel='noopener noreferrer'
               className='terminal-link'
             >
-              GitHub: github.com/username
+              LinkedIn: linkedin.com/in/pjamito
             </a>
             <a
-              href='https://linkedin.com/in/username'
+              href='https://github.com/xavjamito'
               target='_blank'
               rel='noopener noreferrer'
               className='terminal-link'
             >
-              LinkedIn: linkedin.com/in/username
-            </a>
-            <a
-              href='https://twitter.com/username'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='terminal-link'
-            >
-              Twitter: twitter.com/username
-            </a>
-            <a
-              href='https://dev.to/username'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='terminal-link'
-            >
-              Dev.to: dev.to/username
+              GitHub: github.com/xavjamito
             </a>
           </div>
         </div>
 
         <div>
           <div className='terminal-command'>Location</div>
-          <p>San Francisco, CA</p>
+          <p>Philippines</p>
         </div>
       </div>
 

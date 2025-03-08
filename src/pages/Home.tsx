@@ -10,7 +10,7 @@ const Home = () => {
 
       <>
         <TerminalCommand
-          text='Xavier - Software Engineer'
+          text='Xavier Paolo Jamito - Software Engineer'
           isCommand={false}
           isComplete={true}
           autoType={false}
@@ -18,7 +18,8 @@ const Home = () => {
 
         <div className='terminal-text'>
           I build exceptional and accessible digital experiences for the web.
-          Passionate about creating elegant solutions to complex problems.
+          Currently working at NCS Pte Ltd Singapore, developing APIs and UI
+          using React, Next.js, Typescript, and NestJS.
         </div>
 
         <TerminalCommand
@@ -30,17 +31,18 @@ const Home = () => {
 
       <>
         <div className='terminal-result'>
-          <span className='terminal-command'>Frontend:</span> React, TypeScript,
-          JavaScript, HTML/CSS, Tailwind CSS, Next.js
+          <span className='terminal-command'>Languages:</span> Typescript,
+          Javascript, HTML/CSS, C#, SQL, Ruby
           <br />
-          <span className='terminal-command'>Backend:</span> Node.js, Express,
-          MongoDB, PostgreSQL, GraphQL, REST API
+          <span className='terminal-command'>Frameworks:</span> React, React
+          Native, Vue (Vue2/Vue3), Next.js, Express, NestJS, Ruby on Rails
           <br />
-          <span className='terminal-command'>Tools:</span> Git, Docker, CI/CD,
-          Jest
+          <span className='terminal-command'>Tools:</span> Git, AWS (EC2, S3,
+          VPC, DynamoDB), Docker
           <br />
-          <span className='terminal-command'>Languages:</span> JavaScript,
-          TypeScript, Python, Java, C#, SQL
+          <span className='terminal-command'>Certifications:</span> AWS
+          Certified Developer - Associate, AWS Certified Solutions Architect -
+          Associate
         </div>
 
         <TerminalCommand
@@ -54,24 +56,30 @@ const Home = () => {
         <div className='terminal-result'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
             <div>
-              <span className='terminal-command'>E-commerce Platform</span>
+              <span className='terminal-command'>
+                Vaccine Reservation System
+              </span>
               <br />
-              React, Node.js, MongoDB, Express, Stripe
+              Javascript, React, Express, MongoDB, Netlify
             </div>
             <div>
-              <span className='terminal-command'>Task Management App</span>
+              <span className='terminal-command'>
+                Integrated Entertainment System
+              </span>
               <br />
-              React, TypeScript, Firebase, Tailwind CSS
+              React, Next.js, Typescript, NestJS
             </div>
             <div>
-              <span className='terminal-command'>Weather Dashboard</span>
+              <span className='terminal-command'>Risk Assessment Tool</span>
               <br />
-              JavaScript, HTML/CSS, Weather API
+              React, Typescript, Next.JS, D3.js, Mapbox
             </div>
             <div>
-              <span className='terminal-command'>Blog API</span>
+              <span className='terminal-command'>
+                DIANA Ecosystem Operating Platform
+              </span>
               <br />
-              Node.js, Express, MongoDB, JWT
+              React, Typescript, C#, .NET
             </div>
           </div>
         </div>
