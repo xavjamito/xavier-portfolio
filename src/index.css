@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #64ffda;
+  --background: #0a192f;
+  --text: #e6f1ff;
+  --text-secondary: #8892b0;
+  --terminal-black: #282c34;
+  --terminal-green: #98c379;
+  --terminal-yellow: #e5c07b;
+  --terminal-blue: #61afef;
+  --terminal-purple: #c678dd;
+  --terminal-red: #e06c75;
+  --terminal-cyan: #56b6c2;
+}
+
+body {
+  @apply bg-background text-text;
+  font-family: 'Fira Code', monospace;
+}
+
+/* Terminal Theme Styles */
+.terminal-section {
+  @apply p-4 md:p-6 rounded-md bg-terminal-black text-text;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.terminal-title {
+  @apply text-2xl font-bold mb-4 text-terminal-green;
+}
+
+.terminal-command {
+  @apply text-terminal-green font-medium;
+}
+
+.terminal-text {
+  @apply text-text;
+}
+
+.terminal-text-muted {
+  @apply text-text-secondary;
+}
+
+.terminal-result {
+  @apply mt-2 mb-4 pl-4 border-l-2 border-text-secondary;
+}
+
+.terminal-error {
+  @apply text-terminal-red border-terminal-red;
+}
+
+.terminal-project, .terminal-blog-post {
+  @apply p-4 border border-text-secondary rounded-md;
+}
+
+.terminal-tag {
+  @apply px-2 py-1 text-xs rounded-md text-terminal-blue;
+  background-color: rgba(97, 175, 239, 0.2); /* --terminal-blue with 20% opacity */
+}
+
+.terminal-link {
+  @apply text-terminal-cyan hover:underline;
+}
+
+.terminal-input {
+  @apply bg-background border border-text-secondary rounded-md px-3 py-2 text-text;
+  outline: none;
+}
+
+.terminal-input:focus {
+  @apply border-terminal-cyan;
+}
+
+.terminal-button {
+  @apply px-4 py-2 rounded-md text-terminal-green;
+  background-color: rgba(152, 195, 121, 0.2); /* --terminal-green with 20% opacity */
+}
+
+.terminal-button:hover {
+  background-color: rgba(152, 195, 121, 0.3); /* --terminal-green with 30% opacity */
+}
+
+.terminal-success {
+  @apply text-terminal-green;
+}
+
+.terminal-form label {
+  @apply text-terminal-yellow;
+}
+
+.terminal-newsletter {
+  @apply p-4 rounded-md;
+  background-color: rgba(198, 120, 221, 0.1); /* --terminal-purple with 10% opacity */
+  border: 1px solid rgba(198, 120, 221, 0.5); /* --terminal-purple with 50% opacity */
+}
+
+/* Cursor blinking effect */
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--terminal-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-secondary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--terminal-cyan);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .terminal-section {
+    @apply p-3;
+  }
+}
