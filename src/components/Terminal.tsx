@@ -283,7 +283,7 @@ const Terminal = ({ children }: TerminalProps) => {
           {showWelcome && (
             <div className='mb-6'>
               <div className='text-terminal-green text-xl mb-2'>
-                Welcome to Xavier's Portfolio Terminal
+                Xavier Jamito
               </div>
               <div className='text-text-secondary mb-4'>
                 Type 'help' for a list of available commands or navigate using
